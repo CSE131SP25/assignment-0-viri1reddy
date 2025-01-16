@@ -23,6 +23,8 @@ public class RobotInstructions  {
 		 * The second line causes the support.robot to turn left.  Based on what you see,
 		 * what does "90" represent?
 		 * 
+		 * - 90 degrees of turning!
+		 * 
 		 * Run the program as instructed in the lab write-up and observe how the support.robot
 		 * moves in response to the code you see below.
 		 * 
@@ -30,10 +32,104 @@ public class RobotInstructions  {
 		 * as you desire.
 		 */
 		robot.forward(60);
-		robot.turnLeft(90);
-		robot.forward(23);
+		robot.turnLeft(120);
+		robot.forward(60);
+		robot.turnRight(120);
+		robot.forward(20);
+		robot.turnRight(60);
+		robot.forward(60);
+		robot.turnLeft(60);
+		robot.forward(20);
+		
+		robot.turnLeft(120);
+		robot.forward(50);
+		robot.turnRight(120);
+		robot.forward(20);
+		robot.turnRight(60);
+		robot.forward(50);
+		robot.turnLeft(60);
+		robot.forward(20);
+		
+		robot.turnLeft(120);
+		robot.forward(40);
+		robot.turnRight(120);
+		robot.forward(20);
+		robot.turnRight(60);
+		robot.forward(40);
+		robot.turnLeft(60);
+		robot.forward(20);
+		
+		robot.turnLeft(120);
+		robot.forward(30);
+		robot.turnRight(120);
+		robot.forward(20);
+		robot.turnRight(60);
+		robot.forward(30);
+		robot.turnLeft(60);
+		robot.forward(20);
+		
+		robot.turnLeft(120);
+		robot.forward(20);
+		robot.turnRight(120);
+		robot.forward(20);
+		robot.turnRight(60);
+		robot.forward(20);
+		robot.turnLeft(60);
+		robot.forward(20);
+		
 		robot.turnRight(90);
-		robot.forward(80);
+		robot.forward(10);
+		robot.turnRight(90);
+		robot.forward(20);
+		
+		robot.turnLeft(60);
+		robot.forward(20);
+		robot.turnRight(60);
+		robot.forward(20);
+		robot.turnRight(120);
+		robot.forward(20);
+		robot.turnLeft(120);
+		robot.forward(20);
+		
+		robot.turnLeft(60);
+		robot.forward(30);
+		robot.turnRight(60);
+		robot.forward(20);
+		robot.turnRight(120);
+		robot.forward(30);
+		robot.turnLeft(120);
+		robot.forward(20);
+		
+		robot.turnLeft(60);
+		robot.forward(40);
+		robot.turnRight(60);
+		robot.forward(20);
+		robot.turnRight(120);
+		robot.forward(40);
+		robot.turnLeft(120);
+		robot.forward(20);
+		
+		robot.turnLeft(60);
+		robot.forward(50);
+		robot.turnRight(60);
+		robot.forward(20);
+		robot.turnRight(120);
+		robot.forward(50);
+		robot.turnLeft(120);
+		robot.forward(20);
+		
+		robot.turnLeft(60);
+		robot.forward(60);
+		robot.turnRight(60);
+		robot.forward(20);
+		robot.turnRight(120);
+		robot.forward(60);
+		robot.turnLeft(120);
+		robot.forward(20);
+		
+		robot.forward(30);
+		robot.turnRight(90);
+		robot.forward(20);
 	}
 
 }
